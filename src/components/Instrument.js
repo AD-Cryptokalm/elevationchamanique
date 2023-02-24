@@ -9,7 +9,7 @@ import imgTambour4 from "../images/tambourImg4.webp";
 import imgTambour5 from "../images/tambourImg5.webp";
 import imgTambour6 from "../images/tambourImg6.webp";
 import imgTambour7 from "../images/tambourImg7.webp";
-import imgTambour8 from "../images/tambourImg8.webp";
+import imgTambour8 from "../images/imgTamb.webp";
 import imgTambour9 from "../images/tambourImg9.webp";
 import imgTambour10 from "../images/tambourImg10.webp";
 import imgTambour11 from "../images/tambourImg11.webp";
