@@ -1,0 +1,43 @@
+.menuSlide {
+    position: absolute;
+    right: 0;
+    bottom: -25rem;
+    animation: spawn 0.8s linear;
+    box-shadow: -7px 4px 18px -1px rgba(0,0,0,0.83);
+    background-color: white;
+    z-index: 5;
+    border-radius: 25px 0 0 25px;
+}
+@keyframes spawn {
+    0% { right: -60rem; }
+    25% { right: -45rem; }
+    50% { right: -30rem; }
+    75% { right: -15rem; }
+    100% { right: 0; }
+    
+}
+.menuSlide-link {
+    list-style-type: none;
+    text-align: end;
+    background-color: var(--color1);
+    font-size: calc(1.5rem + 0.7vw);
+    border-bottom: 1px solid #fbf9f9;
+    padding: 0.2rem 1rem;
+}
+.menuSlide-link a {
+    color: white;
+}
+.menuSlide-link:hover {
+    background-color: white;
+    border: solid 1px var(--color1);
+}
+.menuSlide-link:hover a {
+    color: var(--color1);
+}
+#liTop {
+    border-radius: 25px 0 0 0;
+}
+#liBottom {
+    border-radius: 0 0 0 25px;
+    border: none;
+}
