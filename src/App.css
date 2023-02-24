@@ -1,38 +1,161 @@
+/* -----------------------CSS général----------------------- */
+
 .App {
   text-align: center;
+  font-family: 'Mynerve', sans-serif;
+}
+.container {
+  margin: 3rem 6%;
+  position: relative;
+}
+.container h2 {
+  font-size: calc(1.5rem + 1.3vw);
+  color: var(--color1);
+  margin: 3.5rem auto 2rem;
+}
+.container h3{
+  font-size: calc(1.5rem + 0.7vw);
+  color: var(--color1);
+  margin: 3.5rem auto 2rem;
+}
+.container h4{
+  font-size: calc(1.5rem + 0.5vw);
+  color: var(--color1);
+  margin: 1rem 0;
+}
+.container img {
+  width: 50%;
+  min-width: 250px;
+  border-radius: 50px;
+  margin: 2rem;
+}
+.container p {
+  color: var(--color1);
+  font-size: calc(0.8rem + 0.5vw);
+  width: 80%;
+  margin: 0 auto;
+}
+.cardContact {
+  border: 1px solid var(--color1);
+  border-radius: 25px;
+  padding: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -----------------------Page séjour----------------------- */
+
+.datesSejour-links {
+  width: 40%;
+  min-width: 300px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: calc(1rem + 0.6vw);
+  margin: 1.5rem auto;
+  padding: 1rem;
+  color: white;
+  background-color: var(--color1);
+  box-shadow: -7px 4px 18px -1px rgba(0,0,0,0.35);
+}
+div.cardPrice {
+  width: 40%;
+  min-width: 200px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: calc(1rem + 0.6vw);
+  margin: 1.5rem auto;
+  padding: 1rem;
+  color: white;
+  background-color: var(--color1);
+  box-shadow: -7px 4px 18px -1px rgba(0,0,0,0.35);
+}
+.alert {
+  text-decoration: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* -----------------------Page instruments----------------------- */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.blockImageHochet {
   display: flex;
-  flex-direction: column;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.blockImageHochet img {
+  width: 30%;
+  border-radius: 300px;
+  margin: 1.5rem;
+}
+.separation {
+  height: 1px;
+  background-color: black;
+  width: 40%;
+  margin: 2rem auto;
+}
+.description {
+  width: 70%;
+  margin: 0 auto;
+}
+#img1 {
+  object-fit: cover;
+}
+
+/* -----------------------Back to top button----------------------- */
+
+.btn {
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: calc(1.5rem + 2vw);
+  height: calc(1.5rem + 2vw);
+  background-color: rgba(0, 0, 0, 0.185);
+  border-radius: 50%;
+  opacity: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  cursor: pointer;
+  /* z-index: 30; */
+  transition: all 1s;
+}
+.btn:hover {
+  background-color: var(--color1);
+
+}
+.icon {
+  opacity: 1;
+  color: white;
+  font-size: calc(1.2rem + 0.5vw);
+  z-index: 40;
+}
+
+/* -----------------------Footer----------------------- */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: var(--color1);
+  padding: 2rem;
+}
+.footer ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-size: calc(0.8rem + 0.5vw);
+  width: 30%;
+}
+.footer a {
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.title-list {
+  margin-bottom: 1rem;
+}
+.footer-contact i {
+  margin-right: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
