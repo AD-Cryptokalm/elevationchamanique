@@ -21,7 +21,7 @@ function Instrument() {
   return (
     <div className="container">
       <h2>Tambours chamaniques et hochets</h2>
-      <img src={imgTambour1} alt="" id="img1" />
+      <img src={imgTambour1} alt="tambour chamanique" id="img1" />
       <h3>Les peaux de cerf et bison viennent d’un artisan tanneur du Gers.</h3>
       <p className="description">
         Réaliser, créer un tambour prend du temps, la patience est un atout, les
@@ -113,7 +113,6 @@ function Instrument() {
       </p>
       <img src={imgTambour11} alt="tambour chamanique" id="img15" />
       <img src={imgTambour12} alt="tambour chamanique" id="img16" />
-      {/* <div className="separation"></div> */}
       <h4 className="cardContact">
         Pour tout achat, réservation ou renseignement, merci de me joindre par
         mail via le <a href="/contact">formulaire de contact</a>, réseaux sociaux ou

@@ -10,31 +10,30 @@ function NavBar() {
     toogleMenuSlider ? setToogleMenuSlider(false) : setToogleMenuSlider(true);
   };
 
-
   return (
     <nav className="navBar">
       <div className="navBar-logo">
         <div className="imga">
           <img src={image1} alt="logo entreprise" />
         </div>
-        <a href="/">
-          <h1>Elévation Chamanique</h1>
-          <span>Benjamin LAFFORGUE</span>
-        </a>
+        <div className="blockNameCall">
+          <a href="/">
+            <h1>Elévation Chamanique</h1>
+            <span>Benjamin LAFFORGUE</span>
+          </a>
+          <a href="tel:+33649543610" className="blockCall">
+            <i className="fa-solid fa-phone iconPhone"></i>
+            <p>06.49.54.36.10</p>
+          </a>
+        </div>
       </div>
       <div className="navBar-menu" onClick={handleClick}>
         <i className="fa-solid fa-bars"></i>
       </div>
-      
+
       {toogleMenuSlider && <MenuSlide />}
-      
     </nav>
   );
 }
 
 export default NavBar;
-
-/* <p>
-        Fabrication et vente d'instruments de musique chamanique mais également
-        séjour de fabrication, séance chamanique et bien d'autres.
-      </p> */

@@ -1,7 +1,7 @@
 import "../style/contact.css";
-import imgAReveColor from '../images/logonb2.png'
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import Map from "./GoogleMap";
 
 function Contact() {
   const form = useRef();
@@ -27,19 +27,23 @@ function Contact() {
   };
 
   return (
-    <div className="form-contact">
-      <img src={imgAReveColor} alt="cuir animal" />
-      <h2>Formulaire de contact</h2>
-      <div className="separation"></div>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Nom</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Envoyer" />
-      </form>
+    <div className="container-contact-map">
+      <div className="form-contact">
+        <h2>Formulaire de contact</h2>
+        <div className="separation"></div>
+        <form ref={form} onSubmit={sendEmail}>
+          <label>Nom</label>
+          <input type="text" name="user_name" />
+          <label>Email</label>
+          <input type="email" name="user_email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <input type="submit" value="Envoyer" />
+        </form>
+      </div>
+      <div className="Gmap">
+        <Map />
+      </div>
     </div>
   );
 }

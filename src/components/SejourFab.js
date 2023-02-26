@@ -30,11 +30,6 @@ function SejourFab() {
         Séjour individuel ou duo de fabrication de tambours chamanique sur 2
         jours et demi:
       </h4>
-      {/* <p>
-        Si vous voulez venir fabriquer votre tambour en individuel ou en duo, la
-        peau ainsi que le cadre et le cuir sont fournis. Si vous avez votre peau ainsi
-        que votre cadre c’est possible aussi.
-      </p> */}
       <p>
         Séjour de fabrication de tambours{" "}
         <span className="alert">
