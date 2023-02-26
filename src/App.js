@@ -11,13 +11,10 @@ import SeanceMassage from "./components/SeanceMassage";
 import Contact from "./components/Contact";
 import Nettoyage from "./components/Nettoyage";
 import BackToTopButton from "./components/BackToTopButton";
+import Cgdv from "./components/Cgdv";
+
 
 function App() {
-
- 
-
-
-
   return (
     <div className="App">
       <BrowserRouter>
@@ -46,8 +43,9 @@ function App() {
             element={<Nettoyage />}
           />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/conditions-generales" element={<Cgdv />} />
         </Routes>
-        <BackToTopButton/>
+        <BackToTopButton />
         <Footer />
       </BrowserRouter>
     </div>
