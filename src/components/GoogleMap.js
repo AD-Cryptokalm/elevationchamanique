@@ -17,21 +17,20 @@ const center = {
 // cle api google map=`${process.env.REACT_APP_API_KEY}`
 
 function Map() {
-
+  
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
     googleMapsApiKey: "",
   });
-
+  
   const [map, setMap] = useState(null);
-
   const onLoad = React.useCallback(function callback(map) {
     const bounds = new window.google.maps.LatLngBounds(center);
     map.fitBounds(bounds);
 
     setMap(map);
   }, []);
-
+  console.log(map)
   const onUnmount = useCallback(function callback(map) {
     setMap(null);
   }, []);
@@ -44,7 +43,6 @@ function Map() {
       onLoad={onLoad}
       onUnmount={onUnmount}
     >
-      {/* Child components, such as markers, info windows, etc. */}
       <></>
     </GoogleMap>
   ) : (
