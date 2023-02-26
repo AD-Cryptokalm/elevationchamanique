@@ -8,13 +8,18 @@
     z-index: 5;
     border-radius: 25px 0 0 25px;
 }
+@media (orientation: portrait) {
+    .menuSlide {
+        bottom: -26rem;
+        border-radius: 25px;
+    }
+  }
 @keyframes spawn {
     0% { right: -60rem; }
     25% { right: -45rem; }
     50% { right: -30rem; }
     75% { right: -15rem; }
     100% { right: 0; }
-    
 }
 .menuSlide-link {
     list-style-type: none;
@@ -24,6 +29,11 @@
     border-bottom: 1px solid #fbf9f9;
     padding: 0.2rem 1rem;
 }
+@media (orientation: portrait) {
+    .menuSlide-link {
+        text-align: center;
+    }
+  }
 .menuSlide-link a {
     color: white;
 }
@@ -37,7 +47,18 @@
 #liTop {
     border-radius: 25px 0 0 0;
 }
+@media (orientation: portrait) {
+    #liTop {
+        border-radius: 25px 25px 0 0;
+    }
+  }
 #liBottom {
     border-radius: 0 0 0 25px;
     border: none;
 }
+@media (orientation: portrait) {
+    #liBottom {
+        border-radius: 0 0 25px 25px;
+    }
+  }
+
