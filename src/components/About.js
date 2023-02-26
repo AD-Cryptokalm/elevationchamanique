@@ -1,7 +1,7 @@
 import "../style/about.css";
 import imagePaysage from "../images/paysage.webp";
 import imageBison from "../images/bison.webp";
-import imageArbre from "../images/BLarbre.webp"
+import imageArbre from "../images/BLarbre.webp";
 
 function About() {
   return (
@@ -21,13 +21,15 @@ function About() {
         vous qu’un moine qui médite des heures tous les jours ne fait rien ?)
         Comprenne qui pourra. À méditer.
       </p>
-      <img src={imagePaysage} alt="" />
+      <img src={imagePaysage} alt="couché de soleil" />
+      <div className="separation"></div>
       <p className="citation">
         "Empruntez votre route avec des amis ou des amours. Ils ne peuvent vous
         porter et inversement. Tout le monde peut marcher sinon la plupart vous
         prendrais pour un âne." <br />
         Un chamane.
       </p>
+      <div className="separation"></div>
       <h3>Le saut dans l'inconnu:</h3>
       <p>
         Pour le futur chamane le saut se fera un jour ou l’autre. Il sera poussé
@@ -42,15 +44,17 @@ function About() {
         la naissance du nouvel individu est maintenant accomplie. Le chamane est
         né des profondeurs.
       </p>
-      <img src={imageBison} alt="" />
+      <img src={imageBison} alt="bison" />
+      <div className="separation"></div>
       <p className="citation">
         "Le jour où tu prends conscience de ton enveloppe, qui en réalité ne
         reflète pas ce que tu es, mais que tu prends conscience de ta profondeur
         intérieure, tu t’ouvrira comme une fleur éclatante, pleine de lumière et
         de vitalité."
       </p>
+      <div className="separation"></div>
       <p className="remerciment">Benjamin LAFFORGUE. Merci et bonne visite</p>
-      <img className="arbreimg" src={imageArbre} alt="" />
+      <img className="arbreimg" src={imageArbre} alt="Benjamin LAFFORGUE" />
     </div>
   );
 }
