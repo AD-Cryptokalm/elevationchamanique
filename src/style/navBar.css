@@ -9,6 +9,16 @@
     text-decoration: none;
     color: var(--color1);
 }
+.imga {
+    width: 100px;
+    height: 100px;
+}
+.imga img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
 .navBar h1 {
     margin: 0 1rem;
     font-size: calc(3.2vw + 1.2vmin);
@@ -19,6 +29,7 @@
 .navBar-logo {
     display: flex;
     align-items: center;
+   
 }
 .navBar-menu {
     font-size: calc(1.5vw + 2vmin);
