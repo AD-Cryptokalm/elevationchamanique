@@ -25,8 +25,7 @@ function Nettoyage() {
         Nous venons nettoyer, corriger et harmoniser avec le travail énergétique
         et chamanique. Une fois cela fait, un autre travail commence. C'est de
         faire monter vibratoirement le lieu (de le consacrer) de réactiver des
-        points sur le terrain si cela est nécessaire en relation avec la terre
-        (le tellurique) et le ciel (le cosmique) et de venir adapter et
+        points sur le terrain si cela est nécessaire et de venir adapter et
         stabiliser l'énergie correspondante pour les personnes et l'habitat.
       </p>
       <div className="separation"></div>
