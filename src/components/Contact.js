@@ -11,13 +11,14 @@ function Contact() {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        `${process.env.REACT_APP_SERVICE_KEY}`,
+        `${process.env.REACT_APP_TEMPLATE_KEY}`,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        `${process.env.REACT_APP_PUBLIC_KEY}`
       )
       .then(
         (result) => {
+          alert("Votre message est bien parti, merci!")
           console.log(result.text);
         },
         (error) => {
@@ -32,13 +33,18 @@ function Contact() {
         <h2>Formulaire de contact</h2>
         <div className="separation"></div>
         <form ref={form} onSubmit={sendEmail}>
-          <label>Nom</label>
+          <label>Nom<br/>
           <input type="text" name="user_name" />
-          <label>Email</label>
+          </label>
+          <label>Email<br/>
           <input type="email" name="user_email" />
-          <label>Message</label>
+          </label>
+          <label>Message<br/>
           <textarea name="message" />
+          </label>
+          <label>
           <input type="submit" value="Envoyer" />
+          </label>
         </form>
       </div>
       <div className="Gmap">
