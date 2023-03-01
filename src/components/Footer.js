@@ -18,7 +18,7 @@ function Footer() {
         </ul>
         <ul className="footer-contact">
             <li className='title-list'>CONTACT</li>
-            <li><i className="fa-brands fa-instagram"></i><a href="/">Instagram</a></li>
+            <li><i className="fa-brands fa-instagram"></i><a href="https://www.instagram.com/b.l.chamanisme">Instagram</a></li>
             <li><i className="fa-brands fa-facebook"></i><a href="https://www.facebook.com/BenjaminLaff">Facebook</a></li>
             <li><i className="fa-regular fa-envelope"></i><a href="/contact">Mail</a></li>
         </ul>
