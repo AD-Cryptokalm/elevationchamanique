@@ -1,5 +1,5 @@
 import "../style/navBar.css";
-import image1 from "../images/imgNavBar.webp";
+import image1 from "../images/logo8.webp";
 
 import React, { useState } from "react";
 import MenuSlide from "./MenuSlide";
