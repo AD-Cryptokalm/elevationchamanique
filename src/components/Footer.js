@@ -7,7 +7,7 @@ function Footer() {
         <ul className='footer-informations'>
             <li className="title-list">INFORMATIONS</li>
             <li><a href="/about">A Propos</a></li>
-            <li><a href="/conditions-generales">Conditions Générales de Vente</a></li>
+            <li><a href="/conditions-generales">Conditions Générales</a></li>
             <li><a href="https://www.jerome-bouin-lapidaire.fr">Partenaires: Jérôme BOUIN Lapidaire</a></li>
         </ul>
         <ul className="footer-adress">

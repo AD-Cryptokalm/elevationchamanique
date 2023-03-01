@@ -3,7 +3,7 @@ import React from "react";
 function Cgdv() {
   return (
     <div className="container">
-      <h2>Conditions Générales de Vente</h2>
+      <h2>Conditions Générales</h2>
       <div className="separation"></div>
       <p>
         Les présentes conditions générales régissent l'utilisation de ce site
