@@ -35,7 +35,7 @@ function Nettoyage() {
       </h3>
       <img src={imgArbre2} alt="arbres dans foret" />
       <p>
-        Déplacement dans toute la région Toulousaine, Tarn et alentours pour
+        Déplacement dans toute la région Occitanie pour
         intervenir avec un ami thérapeute.
       </p>
       <div className="separation"></div>

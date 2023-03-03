@@ -35,7 +35,7 @@ function Accueil() {
           <h3>Informations</h3>
           <p>
             Les dates 2023 pour les prochains séjours de fabrication de tambours
-            sont les weekends du 18 et 19 mars. 1 et 2 avril, 15 et 16 avril.
+            sont les weekends du 1 et 2 avril, 15 et 16 avril.
             Weekend du 6 au 7 mai. D’autres dates sont disponibles sur les mois
             suivants dans l’onglet{" "}
             <a href="/sejour_fabrication_tambour_chamanique">

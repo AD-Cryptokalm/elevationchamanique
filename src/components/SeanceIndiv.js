@@ -12,7 +12,7 @@ function SeanceIndiv() {
       <div className="separation"></div>
       <h3>Qu’est ce que le soin chamanique peut vous apporter ?</h3>
       <p>
-        Le soin s’adapte à la personne. Il va venir nettoyer (extraire),
+        Le soin s’adapte à la personne. Il va venir nettoyer,
         corriger, harmoniser et rééquilibrer sur d’autres sphères, en fonction
         de ce que la personne a besoin au moment. Remonter vibratoirement et
         protéger en fin de séance. (Le fait de monter en vibration pendant le
