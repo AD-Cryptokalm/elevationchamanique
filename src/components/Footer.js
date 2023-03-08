@@ -3,7 +3,7 @@ function Footer() {
     <div className="container-footer">
       <ul className="footer-partenariat">
         <li className="title-list">PARTENARIAT:</li>
-        <li>Jérôme BOUIN</li>
+        <li>J.BOUIN Lapidaire</li>
         <li>
           <a
             href="https://www.jerome-bouin-lapidaire.fr"
