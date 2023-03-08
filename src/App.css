@@ -133,25 +133,47 @@ div.cardPrice {
 }
 
 /* -----------------------Footer----------------------- */
-
+.container-footer {
+  padding-top: 0.7rem;
+  color: white;
+  background-color: var(--color1);
+  /* font-size: calc(1.5rem + 0.7vw); */
+font-size: 1.3rem;
+}
+.footer-partenariat {
+  margin-bottom: 2rem;
+}
+.footer-partenariat a {
+color: white;
+}
 .footer {
   display: flex;
   justify-content: center;
   color: white;
   background-color: var(--color1);
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   flex-wrap: wrap;
 }
 .footer ul {
   list-style-type: none;
-  margin: 1rem 2rem;
+  width: 33%;
+  /* margin: 1rem 2rem; */
   padding: 0;
-  font-size: calc(1rem + 0.7vw);
+font-size: 1.3rem;
+
+  /* font-size: calc(0.7rem + 0.7vw); */
+}
+@media (max-width: 582px) {
+  .footer ul {
+    width: 100%;
+  }
 }
 .footer a {
-  text-decoration: none;
   color: white;
   letter-spacing: 0.1rem;
+}
+a.decoration-none {
+  text-decoration: none;
 }
 
 @media (max-width: 582px) {
@@ -166,7 +188,13 @@ div.cardPrice {
 }
 .title-list {
   margin-bottom: 1rem;
+  margin-top: 1rem;
   text-decoration: underline;
+}
+@media (max-width: 582px) {
+  .title-list {
+    margin-top: 2rem;
+  }
 }
 .footer-contact i {
   margin-right: 0.5rem;
