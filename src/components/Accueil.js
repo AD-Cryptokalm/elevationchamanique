@@ -8,7 +8,7 @@ function Accueil() {
       <img src={image} alt="dessin bison" className="imgLogoNb" />
       <h2>
         Bienvenue sur le site Elévation Chamanique<br/>Tambours et pratiques
-        chamaniques.
+        chamaniques
       </h2>
       <p>
         Voyagez au cœur de votre âme avec nos{" "}
