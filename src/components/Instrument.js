@@ -5,8 +5,6 @@ import imgHochet2 from "../images/hochetImg2.webp";
 import imgHochet3 from "../images/hochetImg3.webp";
 import imgTambour2 from "../images/tambourImg2.webp";
 import imgTambour3 from "../images/tambourImg3.webp";
-import imgTambour4 from "../images/tambourImg4.webp";
-import imgTambour5 from "../images/tambourImg5.webp";
 import imgTambour6 from "../images/tambourImg6.webp";
 import imgTambour7 from "../images/tambourImg7.webp";
 import imgTambour8 from "../images/imgTamb.webp";
@@ -75,15 +73,6 @@ function Instrument() {
       <p className="description">
         Tambour 40cm en cerf brut. Cadre en frêne 7,5cm de profondeur. Mayoche
         en noisetier et cuir de cerf. Coriace !🦌
-      </p>
-      <div className="separation"></div>
-      <h3>Tambour bison en 35cm (360€)</h3>
-      <img src={imgTambour4} alt="tambour chamanique" id="img8" />
-      <img src={imgTambour5} alt="tambour chamanique" id="img9" />
-      <p className="description">
-        Tambour 35 cm bison et hêtre 8cm de profondeur. Poignée en cuir de bison
-        et mayoche en sequoia et cuir de cerf. Petit à l’extérieur, grand à
-        l’intérieur 🦬🌅.
       </p>
       <div className="separation"></div>
       <h3>Tambour chèvre en 40cm (390€)</h3>
