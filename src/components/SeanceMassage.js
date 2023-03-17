@@ -4,7 +4,7 @@ import imgLotus from "../images/imgLotus.jpeg";
 function SeanceMassage() {
   return (
     <div className="container">
-      <h3>Séance individuelle de massage avec magnétisme</h3>
+      <h3>Massage avec magnétisme</h3>
       <img src={imgMassage} alt="massage du dos" />
       <div className="separation"></div>
       <h3>Séance de massage</h3>

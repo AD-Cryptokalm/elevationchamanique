@@ -40,7 +40,7 @@ function App() {
             element={<SacMedecine />}
           />
           <Route
-            path="/seance_individuelle_massage_par_le_magnetisme"
+            path="/massage_avec_magnetisme"
             element={<SeanceMassage />}
           />
           <Route

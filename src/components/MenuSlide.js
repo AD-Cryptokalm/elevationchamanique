@@ -26,7 +26,7 @@ function MenuSlide() {
       </li> */}
       <li className="menuSlide-link">
         <a href="/seance_individuelle_massage_par_le_magnetisme">
-          Séance individuelle de massage par le magnétisme
+          Massage avec magnétisme
         </a>
       </li>
       <li className="menuSlide-link">
