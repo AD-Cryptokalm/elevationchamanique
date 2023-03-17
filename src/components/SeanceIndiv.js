@@ -5,28 +5,21 @@ import imgPaysage5 from '../images/imgPaysage5.jpeg'
 function SeanceIndiv() {
   return (
     <div className="container">
-      <h3>Séance individuelle chamanique</h3>
+      <h3>Soins chamaniques</h3>
       <div className="separation"></div>
-      <h3>Soins Chamanique</h3>
-      <div className="cardPrice">70€ la séance</div>
+      <h3>Soin de rééquilibrage et d'harmonisation</h3>
+      <div className="cardPrice">60€ la séance</div>
       <div className="separation"></div>
       <h3>Qu’est ce que le soin chamanique peut vous apporter ?</h3>
       <p>
         Le soin s’adapte à la personne. Il va venir nettoyer,
-        corriger, harmoniser et rééquilibrer sur d’autres sphères, en fonction
+        corriger, harmoniser et rééquilibrer, en fonction
         de ce que la personne a besoin au moment. Remonter vibratoirement et
         protéger en fin de séance. (Le fait de monter en vibration pendant le
         soin, peut amener des déblocages sur des situations de la vie. Elles
         seront plus fluides en général et l’individu subira moins l’anxiété
         quotidienne. Quelques exemples: La vie en société, le travail et se
-        sentira plus en forme (regain d’énergie). Certaines personnes peuvent
-        ressentir qu’il y a du mouvement au niveau Subtil car le soin travaille
-        principalement sur l’âme, pour ensuite descendre au niveau du corps
-        physique. Si on travaille sur d’autres plan non physiques, cela finit
-        par se retranscrire sur la réalité physique et continuer sur plusieurs
-        semaines (déblocage d’une situation, nettoyage, harmonisation,
-        rééquilibrage et protection contre les agressions extérieures type
-        énergies bas astral).
+        sentira plus en forme (regain d’énergie).
       </p>
       <img src={imgTambour13} alt="tambour chamanique" />
       <p>Le Tambour : Allié intime et monture du chamane pour sa pratique.</p>

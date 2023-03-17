@@ -15,10 +15,15 @@ function MenuSlide() {
         <a href="/sejour_fabrication_tambour_chamanique">Séjour fabrication</a>
       </li>
       <li className="menuSlide-link">
-        <a href="/seance_individuelle_chamanique">
-          Séance individuelle chamanique
+        <a href="/soins_chamaniques">
+          Soins chamaniques
         </a>
       </li>
+      {/* <li className="menuSlide-link">
+        <a href="/sac_medecine">
+          Sac médecine
+        </a>
+      </li> */}
       <li className="menuSlide-link">
         <a href="/seance_individuelle_massage_par_le_magnetisme">
           Séance individuelle de massage par le magnétisme

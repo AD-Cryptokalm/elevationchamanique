@@ -12,6 +12,7 @@ import Contact from "./components/Contact";
 import Nettoyage from "./components/Nettoyage";
 import BackToTopButton from "./components/BackToTopButton";
 import Cgdv from "./components/Cgdv";
+import SacMedecine from "./components/SacMedecine";
 
 
 function App() {
@@ -31,8 +32,12 @@ function App() {
             element={<SejourFab />}
           />
           <Route
-            path="/seance_individuelle_chamanique"
+            path="/soins_chamaniques"
             element={<SeanceIndiv />}
+          />
+           <Route
+            path="/sac_medecine"
+            element={<SacMedecine />}
           />
           <Route
             path="/seance_individuelle_massage_par_le_magnetisme"
