@@ -47,7 +47,7 @@ function Footer() {
           <li>
             <i className="fa-brands fa-instagram"></i>
             <a
-              href="https://www.instagram.com/b.l.chamanisme"
+              href="https://www.instagram.com/elevation_chamanique"
               className="decoration-none"
             >
               Instagram

@@ -1,6 +1,5 @@
 import "../style/about.css";
 import imagePaysage from "../images/paysage.webp";
-import imageBison from "../images/bison.webp";
 import imageArbre from "../images/BLarbre.webp";
 
 function About() {
@@ -24,33 +23,11 @@ function About() {
       <img src={imagePaysage} alt="couché de soleil" />
       <div className="separation"></div>
       <p className="citation">
-        "Empruntez votre route avec des amis ou des amours. Ils ne peuvent vous
-        porter et inversement. Tout le monde peut marcher sinon la plupart vous
-        prendrais pour un âne." <br />
+        "La lumière arrivera toujours à se frayer un chemin en pleine obscurité.
+        Quand la puissance est utilisée correctement, la naissance de la sagesse
+        émerge. L'homme lumière est née et peut maintenant marcher en
+        plénitude." <br />
         Un chamane.
-      </p>
-      <div className="separation"></div>
-      <h3>Le saut dans l'inconnu:</h3>
-      <p>
-        Pour le futur chamane le saut se fera un jour ou l’autre. Il sera poussé
-        par cette force indescriptible et descendra dans les profondeurs de ces
-        réalités multiples qui l’habite. L’ego à ce moment là sera ébranlé, se
-        disloquera et ce sera la mort de l’ancien personnage. Une nouvelle
-        naissance émergera. Dans la nuit le porteur illuminera la pénombre. Un
-        nouveau chemin s’offre à lui avec une nouvelle conscience. L’apprenti
-        chamane sera confronté à une forme d’acceptation et d’abandon de ce
-        nouvelle état d’être. Le cycle est renouvelé à neuf. L’inconnu prend
-        tout son sens et dévient le connu. L’obscurité devient éclairée. À l’Est
-        la naissance du nouvel individu est maintenant accomplie. Le chamane est
-        né des profondeurs.
-      </p>
-      <img src={imageBison} alt="bison" />
-      <div className="separation"></div>
-      <p className="citation">
-        "Le jour où tu prends conscience de ton enveloppe, qui en réalité ne
-        reflète pas ce que tu es, mais que tu prends conscience de ta profondeur
-        intérieure, tu t’ouvrira comme une fleur éclatante, pleine de lumière et
-        de vitalité."
       </p>
       <div className="separation"></div>
       <p className="remerciment">Benjamin LAFFORGUE. Merci et bonne visite</p>

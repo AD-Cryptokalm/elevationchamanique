@@ -5,15 +5,10 @@ import imgHochet2 from "../images/hochetImg2.webp";
 import imgHochet3 from "../images/hochetImg3.webp";
 import imgTambour2 from "../images/tambourImg2.webp";
 import imgTambour3 from "../images/tambourImg3.webp";
-import imgTambour6 from "../images/tambourImg6.webp";
-import imgTambour7 from "../images/tambourImg7.webp";
 import imgTambour8 from "../images/imgTamb.webp";
 import imgTambour9 from "../images/tambourImg9.webp";
-import imgTambour10 from "../images/tambourImg10.webp";
-import imgTambour11 from "../images/tambourImg11.webp";
-import imgTambour12 from "../images/tambourImg12.webp";
-import imgTambour13 from "../images/tambourImg13.webp";
-import imgTambour14 from "../images/tambourImg14.webp";
+
+
 
 function Instrument() {
   return (
@@ -21,19 +16,6 @@ function Instrument() {
       <h2>Tambours chamaniques et hochets</h2>
       <img src={imgTambour1} alt="tambour chamanique" id="img1" />
       <h3>Les peaux de cerf et bison viennent d’un artisan tanneur du Gers.</h3>
-      <p className="description">
-        Réaliser, créer un tambour prend du temps, la patience est un atout, les
-        choses sont données au bon moment. Il se peut que pendant le séchage une
-        fois le tambour sec que cela ne soit pas le moment pour le terminer car
-        il est en phase d’intégration, il travaille en quelque sorte (le tambour
-        prend vie) . Ensuite vient l’autorisation de continuer et de le finir.
-        3ème phase c’est la mayoche cette fois, de la même façon travail en
-        conscience et une fois fini, tambour en main, la dimension du sacré
-        prend forme. (Par tambour compter en moyenne 3 à 5 semaines de travail
-        ou bien plus, autant sur la partie matérielle que spirituelle. (travail
-        énergétique). Vous avez votre tambour maintenant pour prendre part à
-        l’élévation. Bon voyage.
-      </p>
       <img src={imgPaysage} alt="paysage de montagne" id="img2" />
       <div className="separation"></div>
       <h4>
@@ -43,7 +25,7 @@ function Instrument() {
       </h4>
       <div className="separation"></div>
       <h3>Hochet chamanique</h3>
-      <h3>A partir de 80€</h3>
+      <h3>A partir de 60€</h3>
       <div className="blockImageHochet">
         <img src={imgHochet1} alt="hochet chamanique" id="img3" />
         <img src={imgHochet2} alt="hochet chamanique" id="img4" />
@@ -56,15 +38,7 @@ function Instrument() {
         droit du noisetier blanc (masculin) et côté gauche avec l’écorce marron
         noir (féminin). Cuir blanc et rouge toute une symbolique. (Convient pour
         travailler sur les personnes, les lieux et cérémonies).
-        <br /> Tarif : 130 €
-      </p>
-      <div className="separation"></div>
-      <h3>Tambour bison en 45cm (570€)</h3>
-      <img src={imgTambour13} alt="tambour chamanique" />
-      <img src={imgTambour14} alt="tambour chamanique" />
-      <p className="description">
-        Tambour 45 cm en bison, cadre en hêtre 7,5cm de profondeur et cuir
-        direction. Mayoche en chêne et cuir.🦬
+        <br /> Tarif : 80 €
       </p>
       <div className="separation"></div>
       <h3>Tambour cerf brut en 40cm (350€)</h3>
@@ -75,16 +49,7 @@ function Instrument() {
         en noisetier et cuir de cerf. Coriace !🦌
       </p>
       <div className="separation"></div>
-      <h3>Tambour chèvre en 40cm (390€)</h3>
-      <img src={imgTambour6} alt="tambour chamanique" id="img10" />
-      <p className="description">
-        Tambour 40cm en peau de chèvre. Cadre en merisier 6cm de profondeur.
-        Mayoche en cuir de chèvre et noisetier. Tambour très léger.
-      </p>
-      <img src={imgTambour7} alt="tambour chamanique" id="img11" />
-      <p>Poignée en cuir de chèvre.</p>
-      <div className="separation"></div>
-      <h3>Tambour bouc en 40cm (480€)</h3>
+      <h3>Tambour bouc en 40cm (400€)</h3>
       <img src={imgTambour8} alt="tambour chamanique" id="img12" />
       <p className="description">
         Tambour 40cm en peau de bouc. Cadre en frêne 7,5cm de profondeur.
@@ -93,15 +58,6 @@ function Instrument() {
       </p>
       <img src={imgTambour9} alt="tambour chamanique" id="img13" />
       <p>Poignée en cuir de chèvre.</p>
-      <div className="separation"></div>
-      <h3>Tambour veau en 55cm (540€)</h3>
-      <img src={imgTambour10} alt="tambour chamanique" id="img14" />
-      <p className="description">
-        Tambour en veau 55cm et cadre en hêtre profondeur 7,5cm. Cuir couleur.
-        Mayoche en cerisier et en cuir.
-      </p>
-      <img src={imgTambour11} alt="tambour chamanique" id="img15" />
-      <img src={imgTambour12} alt="tambour chamanique" id="img16" />
       <h4 className="cardContact">
         Pour tout achat, réservation ou renseignement, merci de me joindre par
         mail via le <a href="/contact">formulaire de contact</a>, réseaux sociaux ou

@@ -11,8 +11,8 @@ function SejourFab() {
       />
       <h4>Dates disponibles 2023 pour les séjours de fabrication :</h4>
       <ul className="datesSejour-links">
-        <li className="datesSejour-link">Weekend du 31 Mars,1 et 2 Avril</li>
-        <li className="datesSejour-link">Weekend du 14, 15 et 16 Avril</li>
+        {/* <li className="datesSejour-link">Weekend du 31 Mars,1 et 2 Avril</li> */}
+        <li className="datesSejour-link">14, 15 et 16 Avril (complet)</li>
         <li className="datesSejour-link">Weekend du 5, 6 et 7 Mai</li>
         <li className="datesSejour-link">Weekend du 19, 20 et 21 Mai</li>
         <li className="datesSejour-link">Weekend du 9, 10 et 11 Juin</li>
@@ -38,7 +38,7 @@ function SejourFab() {
         :
       </p>
       <div className="cardPrice">
-        280€/pers. Supplément cuir pour mayoche 20 euros
+        260€/pers. Supplément cuir pour mayoche 20 euros
       </div>
       <div className="separation"></div>
       <p>
@@ -46,16 +46,11 @@ function SejourFab() {
         <span className="alert">avec peau et cadre de tambour fournis</span> :
       </p>
       <div className="cardPrice">
-        -Tambour en peau de cerf :<div>35cm: 380€/pers</div>
-        <div>40cm: 400€/pers</div>
-        <div>43-45cm: 420€/pers</div>
-        <div>53cm: 450€/pers</div>
-      </div>
-      <div className="cardPrice">
-        -Tambour en peau de bison :<div>35cm: 400€/pers</div>
-        <div>40cm: 420€/pers</div>
-        <div>43-45cm: 440€/pers</div>
-        <div>53cm: 480€/pers</div>
+        <span className="alert">Tambour en peau de Cerf ou Bison :</span>
+        <div>40cm: 360€/pers</div>
+        <div>45cm: 380€/pers</div>
+        <div>53cm: 400€/pers</div>
+        <div>Hébergement non compris</div>
       </div>
       <div className="separation"></div>
       <h4>
