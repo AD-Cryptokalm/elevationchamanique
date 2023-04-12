@@ -1,15 +1,15 @@
 import "../style/accueil.css";
-import image2 from "../images/imgInfo4.png";
+import image2 from "../images/imgAccueil.jpg";
 import image from "../images/logonb3.png";
 
 function Accueil() {
   return (
     <div className="container">
       <img src={image} alt="dessin bison" className="imgLogoNb" />
-      <h2>
-        Bienvenue sur le site Elévation Chamanique
-      </h2>
-      <h3 className="detail-title">Fabrication et vente de tambours, séjours et stage</h3>
+      <h2>Bienvenue sur le site Elévation Chamanique</h2>
+      <h3 className="detail-title">
+        Fabrication et vente de tambours, séjours et stage
+      </h3>
       <p>
         {/* Voyagez au cœur de votre âme avec nos{" "}
         tambours chamaniques faits à la main et nos séances de
@@ -26,8 +26,12 @@ function Accueil() {
         Découvrez notre sélection de tambours chamaniques et autres instruments
         sacrés, ainsi que nos séances de chamanisme{" "}
         individuelle personnalisées, et commencez votre voyage dès aujourd'hui. */}
+        N'hésitez pas à visiter les différentes pages de notre site. Notamment
+        celle des tambours et hochets que nous proposons. Des dates sont
+        proposées pour les séjours de tambours et d'autres dates peuvent être
+        mises en place en semaine.
         <br />
-        Benjamin
+        Bonne visite
       </p>
       <div className="accueil-info">
         <img src={image2} alt="tambours chamaniques" id="imgAccueil" />
@@ -35,9 +39,9 @@ function Accueil() {
           <h3>Informations</h3>
           <p>
             Les dates 2023 pour les prochains séjours de fabrication de tambours
-            sont les weekends du 1 et 2 avril, 15 et 16 avril.
-            Weekend du 6 au 7 mai. D’autres dates sont disponibles sur les mois
-            suivants dans l’onglet{" "}
+            sont les weekends du 1 et 2 avril, 15 et 16 avril. Weekend du 6 au 7
+            mai. D’autres dates sont disponibles sur les mois suivants dans
+            l’onglet{" "}
             <a href="/sejour_fabrication_tambour_chamanique">
               séjour de fabrication
             </a>

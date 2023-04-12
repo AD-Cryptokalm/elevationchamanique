@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="container about">
       <h2>A Propos</h2>
-      <h3>Pourquoi le chamanisme les tambours et les soins ?</h3>
+      <h3>Pourquoi la fabrication de tambours et les soins ?</h3>
       <p>
         Des reconnexions avec de la pratique qui ont amené un équilibre et qui
         aujourd’hui font partie intégrante de cette vie riche en enseignements.
@@ -27,7 +27,7 @@ function About() {
         Quand la puissance est utilisée correctement, la naissance de la sagesse
         émerge. L'homme lumière est née et peut maintenant marcher en
         plénitude." <br />
-        Un chamane.
+        B.L.
       </p>
       <div className="separation"></div>
       <p className="remerciment">Benjamin LAFFORGUE. Merci et bonne visite</p>

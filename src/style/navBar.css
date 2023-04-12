@@ -23,6 +23,9 @@
     margin: 0 1rem;
     font-size: calc(3.2vw + 1.2vmin);
 }
+.navBar h2{
+    margin-bottom: 1rem;
+}
 h3.detail-title {
     margin-top: 0;
 }

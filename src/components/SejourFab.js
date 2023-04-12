@@ -60,36 +60,25 @@ function SejourFab() {
       <p>Hêtre, frêne ou sycomore en 35, 40, 43, 45 et 53 cm.</p>
       <img src={imgPaysage3} alt="paysage de montagne" />
       <div className="separation"></div>
-      <h4>Quel est le déroulement de ce séjour ?</h4>
+
       <p>
-        Début du premier jour 17h00 (ou bien plus tôt ou plus tard, tout
-        dépendra de ce qui à été prévu en amont avec vous) arrivée la veille en
-        fin de journée. (Durée environ 2h). Durant ce premier jour lors de votre
-        arrivée, vous allez être amené à travailler en connexion avec vos
-        esprits alliés (pour choisir la peau). Ensuite elle sera mise à tremper
-        toute la nuit.
-        <br />
-        Pour la seconde journée vous choisirez le cadre en bois massif et vous
-        serez guidé pour commencer à créér le tambour tout au long de la
-        journée.
-        <br />
-        Le lendemain le tambour restera en repos, pendant quelques heures nous
-        le laisserons travailler. Nous irons en Forêt recevoir le bois qui vous
-        servira pour confectionner la Mayoche avec le cuir. En fin de journée
-        nous consacrerons le tambour et la Mayoche. La naissance a lieu et vous
-        recevez votre tambour pour prendre part à l’élévation.
+        Le déroulement du séjour de fabrication fera place à la transmission.
+        Chacune, chacun recevra ce dont il a besoin et repartira avec son
+        tambour nouvellement né. Nous pouvons parler d'un séjour initiatique, où
+        je vous accompagne pendant ces deux jours lors de la réalisation du
+        tambour.
       </p>
-      <div className="cardPrice">
+      {/* <div className="cardPrice">
         <div>Vendredi : 17h-19h</div>
         <div>Samedi : 9h-17h</div>
         <div>Dimanche : 10h-17h</div>
         <div>Horaires pouvant varier</div>
         <div>Possibilité de venir réaliser votre tambour en semaine</div>
-      </div>
+      </div> */}
       <h4 className="cardContact">
         Pour tout achat, réservation ou renseignement, merci de me joindre par
-        mail via le <a href="/contact">formulaire de contact</a>, réseaux sociaux ou
-        par téléphone.
+        mail via le <a href="/contact">formulaire de contact</a>, réseaux
+        sociaux ou par téléphone.
       </h4>
     </div>
   );
