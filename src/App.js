@@ -12,7 +12,7 @@ import Contact from "./components/Contact";
 import Nettoyage from "./components/Nettoyage";
 import BackToTopButton from "./components/BackToTopButton";
 import Cgdv from "./components/Cgdv";
-import SacMedecine from "./components/SacMedecine";
+// import SacMedecine from "./components/SacMedecine";
 
 
 function App() {
@@ -35,10 +35,10 @@ function App() {
             path="/soins_chamaniques"
             element={<SeanceIndiv />}
           />
-           <Route
+           {/* <Route
             path="/sac_medecine"
             element={<SacMedecine />}
-          />
+          /> */}
           <Route
             path="/massage_avec_magnetisme"
             element={<SeanceMassage />}

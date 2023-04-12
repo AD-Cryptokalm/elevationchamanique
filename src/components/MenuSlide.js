@@ -19,11 +19,11 @@ function MenuSlide() {
           Soin chamanique
         </a>
       </li>
-      <li className="menuSlide-link">
+      {/* <li className="menuSlide-link">
         <a href="/sac_medecine">
           Sacs médecine
         </a>
-      </li>
+      </li> */}
       <li className="menuSlide-link">
         <a href="/massage_avec_magnetisme">
           Massage avec magnétisme

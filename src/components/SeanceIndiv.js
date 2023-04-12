@@ -21,9 +21,9 @@ function SeanceIndiv() {
         l’anxiété quotidienne. Quelques exemples: La vie en société, le travail
         et se sentira plus en forme (un regain d’énergie peut se faire sentir).
       </p>
-      <p>
+      {/* <p>
         <a href="/sac_medecine">Découvrer aussi nos sacs médecine</a>
-      </p>
+      </p> */}
       <div className="separation"></div>
       <img src={imgPanthere} alt="panthere noire" />
       <div className="separation"></div>

@@ -7,14 +7,14 @@ function Accueil() {
     <div className="container">
       <img src={image} alt="dessin bison" className="imgLogoNb" />
       <h2>
-        Bienvenue sur le site Elévation Chamanique<br/>Tambours et pratiques
-        chamaniques
+        Bienvenue sur le site Elévation Chamanique
       </h2>
+      <h3 className="detail-title">Fabrication et vente de tambours, séjours et stage</h3>
       <p>
         Voyagez au cœur de votre âme avec nos{" "}
-        <strong>tambours chamaniques</strong> faits à la main et nos séances de
+        tambours chamaniques faits à la main et nos séances de
         soins individuelles. Nous sommes passionnés par la{" "}
-        <strong>fabrication de tambours chamaniques</strong> de qualité, en
+        fabrication de tambours chamaniques de qualité, en
         utilisant des matériaux naturels soigneusement sélectionnés pour créer
         un son unique et harmonieux. Mais nous ne nous arrêtons pas là : nous
         sommes là pour vous guider dans votre propre voyage intérieur, en
@@ -24,7 +24,7 @@ function Accueil() {
         plus profond dans votre vie, ou simplement à vous détendre et à vous
         connecter avec la nature, nous serons là pour vous accompagner.
         Découvrez notre sélection de tambours chamaniques et autres instruments
-        sacrés, ainsi que nos séances de <strong>chamanisme</strong>{" "}
+        sacrés, ainsi que nos séances de chamanisme{" "}
         individuelle personnalisées, et commencez votre voyage dès aujourd'hui.
         <br />
         Benjamin
