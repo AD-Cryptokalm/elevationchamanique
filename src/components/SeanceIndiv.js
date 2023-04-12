@@ -7,10 +7,11 @@ function SeanceIndiv() {
       <h3>Soin chamanique</h3>
       <div className="cardPrice">70€ la séance</div>
       <div className="separation"></div>
+      <h4>Qu'est ce que le soin chamanique peut vous apporter ?</h4>
       <p>
         Le soin s’adapte à la personne. Il va venir nettoyer, corriger,
         harmoniser et rééquilibrer, en fonction de ce que la personne a besoin
-        au moment. Le soin va venir nettoyer plus en profondeur si besoin. Par
+        au moment. Le soin va venir extraire plus en profondeur si besoin. Par
         exemple, le dégagement d'un gros blocage émotionnel, d'une entité, une
         situation toxique etc...
         <br />

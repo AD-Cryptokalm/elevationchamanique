@@ -26,7 +26,8 @@ function About() {
         "La lumière arrivera toujours à se frayer un chemin en pleine obscurité.
         Quand la puissance est utilisée correctement, la naissance de la sagesse
         émerge. L'homme lumière est née et peut maintenant marcher en
-        plénitude." <br />
+        plénitude. L'horizontalité de la vie ordinaire vous amènera toujours vers la chute.
+        La verticalité de la nouvelle vie est libératrice tout simplement." <br />
         B.L.
       </p>
       <div className="separation"></div>
