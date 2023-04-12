@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  font-family: "Mynerve", sans-serif;
+  font-family: "Dancing+Script", sans-serif;
 }
 .container {
   margin: 3rem 6%;
@@ -10,12 +10,12 @@
 }
 .container h2 {
   font-size: calc(1.5rem + 1.3vw);
-  color: var(--color1);
+  color: var(--color2);
   margin: 3.5rem auto 2rem;
 }
 .container h3 {
   font-size: calc(1.5rem + 0.7vw);
-  color: var(--color1);
+  color: var(--color2);
   margin: 3.5rem auto 2rem;
 }
 .container h4 {
