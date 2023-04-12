@@ -11,7 +11,7 @@ function Accueil() {
       </h2>
       <h3 className="detail-title">Fabrication et vente de tambours, séjours et stage</h3>
       <p>
-        Voyagez au cœur de votre âme avec nos{" "}
+        {/* Voyagez au cœur de votre âme avec nos{" "}
         tambours chamaniques faits à la main et nos séances de
         soins individuelles. Nous sommes passionnés par la{" "}
         fabrication de tambours chamaniques de qualité, en
@@ -25,7 +25,7 @@ function Accueil() {
         connecter avec la nature, nous serons là pour vous accompagner.
         Découvrez notre sélection de tambours chamaniques et autres instruments
         sacrés, ainsi que nos séances de chamanisme{" "}
-        individuelle personnalisées, et commencez votre voyage dès aujourd'hui.
+        individuelle personnalisées, et commencez votre voyage dès aujourd'hui. */}
         <br />
         Benjamin
       </p>

@@ -141,7 +141,11 @@ div.cardPrice {
 font-size: 1.3rem;
 }
 .footer-partenariat {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+ul.footer-partenariat {
+  border-bottom: 2px solid var(--color2);
+
 }
 .footer-partenariat a {
 color: white;
